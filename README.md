@@ -11,12 +11,12 @@ This is a self-playing Snake game fully designed and implemented by **Ghala Haza
 
 | Mode Key | Algorithm | Description |
 |----------|-----------|-------------|
-| A        | **A\*** (astar.py) | Standard optimal pathfinding using Manhattan distance |
-| S        | **Safe A\*** + Flood Fill | A* with flood-fill safety check to avoid traps |
-| B        | **BFS + A\*** | Path with backup BFS to ensure space sufficiency |
-| L        | **Longest Safe Path** | DFS-based path prioritizing survival over speed |
-| D        | **Dynamic Mode** | AI dynamically switches between safe/risky/longest modes |
-| M        | **Manual** | Player control via keyboard (for comparison) |
+| A        | A* (astar.py) | Standard optimal pathfinding using Manhattan distance |
+| S        | Safe A* + Flood Fill | A* with flood-fill safety check to avoid traps |
+| B        | BFS + A* | Path with backup BFS to ensure space sufficiency |
+| L        | Longest Safe Path | DFS-based path prioritizing survival over speed |
+| D        | Dynamic Mode | AI dynamically switches between safe/risky/longest modes |
+| M        | Manual | Player control via keyboard (for comparison) |
 
 ---
 
@@ -47,6 +47,10 @@ This is a self-playing Snake game fully designed and implemented by **Ghala Haza
 
 This short demo compares **A\*** pathfinding against **manual player control** in identical conditions.  
 Watch how the AI agent reacts faster and more precisely compared to human input.
+>  **Note:**  
+> In the manual mode video, the **gray path** shown on the grid is a **visual simulation of the A* route.  
+> It is displayed for comparison purposes only and does not reflect real-time A* execution during manual gameplay.
+
 
 [![Watch the demo](https://img.youtube.com/vi/NZn5HM5XrM8/0.jpg)](https://www.youtube.com/watch?v=NZn5HM5XrM8)
 ---
