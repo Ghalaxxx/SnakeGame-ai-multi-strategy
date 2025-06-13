@@ -48,7 +48,7 @@ This is a self-playing Snake game fully designed and implemented by **Ghala Haza
 This short demo compares **A\*** pathfinding against **manual player control** in identical conditions.  
 Watch how the AI agent reacts faster and more precisely compared to human input.
 
-[![Watch the demo]
+[![Watch the demo](https://img.youtube.com/vi/NZn5HM5XrM8/0.jpg)](https://www.youtube.com/watch?v=NZn5HM5XrM8)
 ---
 
 
