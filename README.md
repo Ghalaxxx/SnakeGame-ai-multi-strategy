@@ -56,7 +56,7 @@ Watch how the AI agent reacts faster and more precisely compared to human input.
 ---
 
 
-## ⚠ Known Issues
+##  Known Issues
 
 - Some algorithms, such as **BFS+DFS-based strategies**, may cause excessive memory usage or performance degradation — especially on smaller grid sizes.  
   These modes are not ideal for real-time gameplay and may occasionally result in application crashes depending on the system and configuration.
